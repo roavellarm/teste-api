@@ -119,12 +119,3 @@ All commits to `master` branch will be pushed to staging by CircleCI.
 Generate a new release - all tags in the format `vX`, where `X` is an integer, will be automatically pushed to production.
 
 Example: `v1`, `v2` ... `v10` and so on.
-
-
-## Create a new Service Object with generator
-
-```
-  bin/rails generate "service_object_name"
-```
-
-This command generates the service object template and a test template for Rspec.
