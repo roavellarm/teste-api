@@ -89,7 +89,7 @@ jobs:
       - run:
           name: Deploy to staging
           command: |
-            dpl --provider=heroku --app=teste-api-staging --api-key=$HEROKU_API_KEY
+            dpl --provider=heroku --app=teste-staging-api --api-key=$HEROKU_API_KEY
   deploy_production:
     docker:
       - image: circleci/ruby:2.5.5
@@ -103,7 +103,7 @@ jobs:
       - run:
           name: Deploy to production
           command: |
-            dpl --provider=heroku --app=teste-api-production --api-key=$HEROKU_API_KEY
+            dpl --provider=heroku --app=teste-production-api --api-key=$HEROKU_API_KEY
 workflows:
   version: 2
   test_and_deploy:
