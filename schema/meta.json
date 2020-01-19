@@ -1,0 +1,11 @@
+{
+  "description": "The API for a Teste",
+  "id": "teste-api",
+  "links": [
+    {
+      "href": "https://api.teste-api.com",
+      "rel": "self"
+    }
+  ],
+  "title": "Teste - API"
+}
